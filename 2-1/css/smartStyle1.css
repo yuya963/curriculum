@@ -1,0 +1,66 @@
+@media screen and (max-width: 767px) {
+    
+}
+.header {
+    width: 250px;
+    height: 100px;
+    background-color: blue;
+}
+.right {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+.left {
+    width: 150px;
+    height: 100px;
+    background-color: rgb(0, 255, 72);
+    float: left;
+}
+.footer {
+    width: 250px;
+    height: 100px;
+    background-color: orange;
+}
+
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+
+@media screen and (max-width: 479px) {
+    
+}
+.header {
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+}
+.right {
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    float: none;
+}
+.left {
+    width: 150px;
+    height: 100px;
+    background-color: rgb(0, 255, 72);
+    float: none;
+}
+.footer {
+    width: 150px;
+    height: 100px;
+    background-color: orange;
+}
+
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+
+
+
